@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: fe;
+    src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif//FontsFree-Net-Geometria-ExtraBold.ttf);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 1vh;
+  background-color: #000000;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Montserrat';
+  margin: 0;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 0.05vh;
+  resize: none;
+  outline: none;
+  border: 0;
+  user-select: none;
+  color: white;
+  scroll-behavior: smooth;
+}
+/* HEADER */
+.header-main {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10%;
+  width: 100%;
+}
+.header-item {
+  color: white;
+}
+.logo1 {
+  height: 100%;
+}
+.icondc {
+  font-size: 3vw;
+  margin-top: 0.5vw;
+}
+/* HEADER HOVER */
+.header-item:hover {
+  filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.65)); 
+  border-bottom: 1px solid white;
+}
+.logo1:hover {
+  border: none;
+  filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.425)); 
+}
+.icondc:hover {
+  border: none;
+}
+/* BG 1 */
+.bg1-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+  background-color: rgb(23, 25, 48);
+}
+.bg1-main .logo {
+  position: absolute;
+  width: 17vw;
+  margin-left: 35vw;
+  opacity: 50%;
+}
+.txt1 {
+  font-size: 1.4vw;
+  font-weight: 200;
+}
+.txt2 {
+  font-family: Kanit;
+  font-weight: 700;
+  font-size: 4vw;
+  color: #1a55a1;
+  filter: drop-shadow(0px 0px 2px #1a54a179); 
+}
+.txt3 {
+  font-weight: 200;
+  width: 40%;
+  margin-top: 0.4vw;
+}
+/* BG 2 */
+.bg2-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.bg2-icon {
+  z-index: 1;
+  color: black;
+  font-size: 7vw;
+}
+.plus {
+  font-size: 3vw;
+  margin-bottom: 2.2vw;
+}
+.txt4 {
+  color: black;
+  font-weight: 700;
+  margin: 1vw;
+}
+.txt5 {
+  color: black;
+  font-weight: 700;
+  margin: 1.2vw;
+}
+.txt6 {
+  color: black;
+  font-weight: 400;
+}
+/* BG 3 */
+.bg3-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  width: 100%;
+  background-color: rgb(23, 25, 48);
+}
+.bg3-item {
+  margin: 2vw;
+}
+.txt7 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin: 2vw;
+}
+/* Europeu */
+.bg3-erp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ferp {
+  font-size: 20vw;
+}
+.nerp {
+  font-family: fe;
+  font-size: 1.5vw;
+  flex-direction: row;
+}
+.descerp1 {
+  color: white;
+  font-weight: 500;
+}
+.descerp2 {
+  color: white;
+  font-weight: 500;
+}
+/* Drukas */
+.bg3-dks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fdks {
+  font-size: 20vw;
+}
+.ndks {
+  font-family: fe;
+  font-size: 1.5vw;
+  flex-direction: row;
+}
+.descdks1 {
+  color: white;
+  font-weight: 500;
+}
+.descdks2 {
+  color: white;
+  font-weight: 500;
+}
+/* Thzin */
+.bg3-th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fth {
+  font-size: 20vw;
+}
+.nth {
+  font-family: fe;
+  font-size: 1.5vw;
+  flex-direction: row;
+}
+.descth1 {
+  color: white;
+  font-weight: 500;
+}
+.descth2 {
+  color: white;
+  font-weight: 500;
+}
+/* BG 4 */
+.bg4-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.bg4-item {
+  color: black;
+  font-size: 2vw;
+  margin: 0.3vw;
+}
+.pwrd {
+  margin: 1vw;
+  font-size: 1vw;
+}
