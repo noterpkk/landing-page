@@ -1,86 +1,244 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
-            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" 
-            crossorigin="anonymous">
-        </script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <title>PVK Landing Page</title>
-        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/977415730242924631/978037211175993454/pvkn.png" type="image/x-icon">
-    </head>
-    <body>
-        <div class="header-main">
-            <img class="header-item logo1" src="https://cdn.discordapp.com/attachments/977415730242924631/978037211175993454/pvkn.png"/>
-            <a href="#">
-                <p class="header-item home">HOME</p>
-            </a>
-            <a href="https://discord.gg/XEnUTHWFK9" target="_blank">
-                <p class="header-item contact">CONTACT</p>
-            </a>
-            <a href="#skills">
-                <p class="header-item skills">SKILLS</p>
-            </a>
-            <a href="#team">
-                <p class="header-item team">TEAM</p>
-            </a>
-            <a href="https://discord.gg/XEnUTHWFK9" target="_blank">
-                <ion-icon class="header-item icondc" name="logo-discord"></ion-icon>
-            </a>
-        </div>
-        <div class="bg1-main">
-            <p class="bg1-item txt1">Welcome to</p>
-            <p class="bg1-item txt2">Provoke Team</p>
-            <p class="bg1-item txt3">A team of developers, founded by 3 young people from 13 to 16 years old, focused on web development focused on websites and the game Fivem</p>
-            <img class="bg1-item logo" src="./img/pvkn.png" alt="pvk logo">
-        </div>
-        <div id="skills" class="bg2-main">
-            <p class="bg2-item txt4">What are our skills</p>
-            <div class="bg2-icons">
-                <ion-icon class="bg2-icon html" name="logo-html5"></ion-icon>
-                <ion-icon class="bg2-icon plus" name="add-outline"></ion-icon>
-                <ion-icon class="bg2-icon css" name="logo-css3"></ion-icon>
-                <ion-icon class="bg2-icon plus" name="add-outline"></ion-icon>
-                <ion-icon class="bg2-icon js" name="logo-nodejs"></ion-icon>
-                <ion-icon class="bg2-icon plus" name="add-outline"></ion-icon>
-                <ion-icon class="bg2-icon lua" name="moon-outline"></ion-icon>
-                <ion-icon class="bg2-icon plus" name="add-outline"></ion-icon>
-                <ion-icon class="bg2-icon py" name="logo-python"></ion-icon>
-            </div>
-            <p class="bg2-item txt5">Our skills range from front-end, HTML, CSS and JS, to back-end, node js, python and lua</p>
-            <p class="bg2-item txt6">You can learn more about our work by contacting us, just click on "CONTACT"</p>
-        </div>
-        <div id="team" class="bg3-main">
-            <p class="bg3-item txt7">Our team</p>
-            <div class="bg3-erp">
-                <p class="bg3-erp nerp"><b class="bg3-erp nerp" style="color: rgb(0, 68, 255);">Europeu</b>, Pedro Henrique</p>
-                <ion-icon class="bg3-erp ferp" name="person-circle-outline"></ion-icon>
-                <p class="bg3-erp descerp1">Front-End Developer</p>
-                <p class="bg3-erp descerp2">Focused on website development and ui/ux</p>
-            </div>
-            <div class="bg3-item"></div>
-            <div class="bg3-dks">
-                <p class="bg3-dks ndks"><b class="bg3-dks ndks" style="color: rgb(0, 68, 255);">Drukas</b>, Nicolas Soares</p>
-                <ion-icon class="bg3-dks fdks" name="person-circle-outline"></ion-icon>
-                <p class="bg3-dks descdks1">Front-End Developer</p>
-                <p class="bg3-dks descdks2">Focused on ui for Fivem</p>
-            </div>
-            <div class="bg3-item"></div>
-            <div class="bg3-th">
-                <p class="bg3-th nth"><b class="bg3-th nth" style="color: rgb(0, 68, 255);">Thzin</b>, Arthur Barroso</p>
-                <ion-icon class="bg3-th fth" name="person-circle-outline"></ion-icon>
-                <p class="bg3-th descth1">Front-End Developer</p>
-                <p class="bg3-th descth2">Focused on ui for Fivem</p>
-            </div>
-        </div>
-        <div class="bg4-main">
-            <p class="bg4-item contato">Contact:</p>
-            <a href="https://discord.gg/HqKv78U646" target="_blank">
-            <ion-icon class="bg4-item ldc" name="logo-discord"></ion-icon>
-            </a>
-            <p class="bg4-item pwrd">Powered by @ProvokeTeam</p>
-        </div>
-        <script src="./script.js"></script>
-    </body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: fe;
+    src: url(https://fontsfree.net//wp-content/fonts/basic/sans-serif//FontsFree-Net-Geometria-ExtraBold.ttf);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 1vh;
+  background-color: #000000;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Montserrat';
+  margin: 0;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 0.05vh;
+  resize: none;
+  outline: none;
+  border: 0;
+  user-select: none;
+  color: white;
+  scroll-behavior: smooth;
+}
+/* HEADER */
+.header-main {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10%;
+  width: 100%;
+}
+.header-item {
+  color: white;
+}
+.logo1 {
+  height: 100%;
+}
+.icondc {
+  font-size: 3vw;
+  margin-top: 0.5vw;
+}
+/* HEADER HOVER */
+.header-item:hover {
+  filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.65)); 
+  border-bottom: 1px solid white;
+}
+.logo1:hover {
+  border: none;
+  filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.425)); 
+}
+.icondc:hover {
+  border: none;
+}
+/* BG 1 */
+.bg1-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+  background-color: rgb(23, 25, 48);
+}
+.bg1-main .logo {
+  position: absolute;
+  width: 17vw;
+  margin-left: 35vw;
+  opacity: 50%;
+}
+.txt1 {
+  font-size: 1.4vw;
+  font-weight: 200;
+}
+.txt2 {
+  font-family: Kanit;
+  font-weight: 700;
+  font-size: 4vw;
+  color: #1a55a1;
+  filter: drop-shadow(0px 0px 2px #1a54a179); 
+}
+.txt3 {
+  font-weight: 200;
+  width: 40%;
+  margin-top: 0.4vw;
+}
+/* BG 2 */
+.bg2-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.bg2-icon {
+  z-index: 1;
+  color: black;
+  font-size: 7vw;
+}
+.plus {
+  font-size: 3vw;
+  margin-bottom: 2.2vw;
+}
+.txt4 {
+  color: black;
+  font-weight: 700;
+  margin: 1vw;
+}
+.txt5 {
+  color: black;
+  font-weight: 700;
+  margin: 1.2vw;
+}
+.txt6 {
+  color: black;
+  font-weight: 400;
+}
+/* BG 3 */
+.bg3-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  width: 100%;
+  background-color: rgb(23, 25, 48);
+}
+.bg3-item {
+  margin: 2vw;
+}
+.txt7 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2vw;
+  margin: 2vw;
+}
+/* Europeu */
+.bg3-erp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ferp {
+  font-size: 20vw;
+}
+.nerp {
+  font-family: fe;
+  font-size: 1.5vw;
+  flex-direction: row;
+}
+.descerp1 {
+  color: white;
+  font-weight: 500;
+}
+.descerp2 {
+  color: white;
+  font-weight: 500;
+}
+/* Drukas */
+.bg3-dks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fdks {
+  font-size: 20vw;
+}
+.ndks {
+  font-family: fe;
+  font-size: 1.5vw;
+  flex-direction: row;
+}
+.descdks1 {
+  color: white;
+  font-weight: 500;
+}
+.descdks2 {
+  color: white;
+  font-weight: 500;
+}
+/* Thzin */
+.bg3-th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fth {
+  font-size: 20vw;
+}
+.nth {
+  font-family: fe;
+  font-size: 1.5vw;
+  flex-direction: row;
+}
+.descth1 {
+  color: white;
+  font-weight: 500;
+}
+.descth2 {
+  color: white;
+  font-weight: 500;
+}
+/* BG 4 */
+.bg4-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.bg4-item {
+  color: black;
+  font-size: 2vw;
+  margin: 0.3vw;
+}
+.pwrd {
+  margin: 1vw;
+  font-size: 1vw;
+}
