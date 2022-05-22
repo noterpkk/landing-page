@@ -80,10 +80,10 @@
   width: 100%;
   background-color: rgb(23, 25, 48);
 }
-.bg1-main .logo {
+.logo {
   position: absolute;
-  width: 17vw;
-  margin-left: 35vw;
+  width: 15vw;
+  margin-left: 60vw;
   opacity: 50%;
 }
 .txt1 {
@@ -151,6 +151,7 @@
 .txt7 {
   color: rgb(255, 255, 255);
   font-weight: 700;
+  font-size: 2vw;
   margin: 2vw;
 }
 /* Europeu */
